@@ -9,7 +9,7 @@ input.addEventListener(
       image.src = reader.result;
       image.onload = () => {
         let canvas = document.createElement("canvas");
-        canvas.width = 200;
+        canvas.width = 275;
         canvas.height = 100;
         const ctx = canvas.getContext("2d");
         ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
