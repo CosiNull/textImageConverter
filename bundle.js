@@ -44,7 +44,7 @@ input.addEventListener(
 
         //output div
         let myDiv = document.createElement("div");
-        myDiv.style.fontSize = "4.5px";
+        myDiv.style.fontSize = "3px";
         myDiv.style.backgroundColor = "white";
         myDiv.style.fontFamily = "Courier New";
         myDiv.style.letterSpacing = -1;
