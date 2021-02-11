@@ -126,7 +126,7 @@ function setCharacters() {
   });
 }
 function drawCharacters(div) {
-  let string = "<b>";
+  let string = "";
   for (let i = 0; i < characterArray.length; i++) {
     for (let j = 0; j < characterArray[i].length; j++) {
       string += characters[characterArray[i][j]];
@@ -134,7 +134,7 @@ function drawCharacters(div) {
     div.innerHTML += string + "<br>";
     string = "";
   }
-  div.innerHTML +="</b>";
+  
 }
 function contrast(colourValue, contrastFactor) {
   const f = (259 * (contrastFactor + 255)) / (255 * (259 - contrastFactor));
