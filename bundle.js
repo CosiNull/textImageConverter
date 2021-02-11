@@ -134,7 +134,7 @@ function drawCharacters(div) {
     div.innerHTML += string + "<br>";
     string = "";
   }
-  string+="</b>";
+  div.innerHTML +="</b>";
 }
 function contrast(colourValue, contrastFactor) {
   const f = (259 * (contrastFactor + 255)) / (255 * (259 - contrastFactor));
