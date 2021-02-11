@@ -49,6 +49,7 @@ input.addEventListener(
         myDiv.style.fontFamily = "Courier New";
         myDiv.style.letterSpacing = -1;
         myDiv.style.lineHeight = -2;
+        myDiv.style.fontWeight = "bold";
         myDiv.id = "output";
         drawCharacters(myDiv);
         document.body.appendChild(myDiv);
